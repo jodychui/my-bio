@@ -1,0 +1,106 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #b3b3ff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #99e6e6;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color:  #99e6e6;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab  {
+	color: #00cc99;
+}
+
+body {
+    background-color: #e6fff9;
+    text-align: center;
+}
+h1 {
+	background-color: coral;
+	text-align: center;
+	font-size: 300%;
+	color: #ffe6ee;
+	font-family: 'Shrikhand', cursive;
+}
+
+h2{
+	font-family: fantasy;
+	color: blue;
+}
+
+#hungry {
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    }
+
+#happy {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#tired {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#bio {
+	color: #00cc99;
+}
+
+#hobbies {
+	color: #8B008B;
+
+}
+
+#funfact {
+	color: #FFA07A;
+}
+
+#favoritewebsite {
+	color: #00b300;
+}
+
+
+#somepics {
+	color: #d24dff;
+}
+
+
+
+
+
+
